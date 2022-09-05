@@ -1,21 +1,22 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            MF's blog
+tagline:          ''
+description:      ''
+url:              https://mflak.eu
 baseurl:          /
+picture: assets/images/profile.jpg
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Michał Flak'
+  url:            https://twitter.com/mflakdev
 
 paginate:         5
 
@@ -23,4 +24,30 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/elo-siema
+
+twitter: https://twitter.com/mflakdev
+# instagram: myinstagram
+# pinterest: mypinterest
+linkedin: https://linkedin.com/in/mflak
+# youtube: myyoutube
+# spotify: myspotify
+github: https://github.com/elo-siema
+# gitlab: mygitlab
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: michal@mflak.eu
+
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: mflak-eu # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
+
+
+plugins:
+  - jekyll-paginate

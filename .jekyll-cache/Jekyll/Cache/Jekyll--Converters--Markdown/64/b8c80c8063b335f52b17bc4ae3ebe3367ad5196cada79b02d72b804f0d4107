@@ -1,0 +1,10 @@
+I"œ<p><img src="/assets/images/maze.png" alt="maze" /></p>
+
+<p>Fun little project created to try out the Rust language. Uses SDL2.</p>
+
+<p>Check out <a href="https://en.wikipedia.org/wiki/CHIP-8">Chip8</a> itself - extremely simple VM concept with 4K of memory and 16 8-bit registers. Plenty enough to run some fun games.</p>
+
+<hr />
+
+<p><a href="https://github.com/elo-siema/rust-chip8">Get the code</a> here.</p>
+:ET
