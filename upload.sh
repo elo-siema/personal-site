@@ -1,5 +1,5 @@
 #/bin/sh
-jekyll build
+bundle exec jekyll build
 bucketName="mf-personal-website"
 sitePath="_site"
 distributionId="E1O668TXMTNKOD"
